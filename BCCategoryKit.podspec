@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/bubuatt@sina.com/BCCategoryKit'
+  s.homepage         = 'https://github.com/chokNight/BCCategoryKit.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'bubuatt@sina.com' => 'zj4qwgtncd@privaterelay.appleid.com' }
-  s.source           = { :git => 'https://github.com/bubuatt@sina.com/BCCategoryKit.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/chokNight/BCCategoryKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
