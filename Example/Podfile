@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'BCCategoryKit_Example' do
+  pod 'BCCategoryKit', :path => '../'
+
+  target 'BCCategoryKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
